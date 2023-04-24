@@ -118,8 +118,6 @@ public class Calculator {
         if (newMode == MonoOperatorModes.abs){
             return Math.abs(num);
         }
-
-        // never reach
         throw new Error();
     }
 
